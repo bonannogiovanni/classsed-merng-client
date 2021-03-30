@@ -13,8 +13,6 @@ function PostCard({
 }) {
   const { user } = useContext(AuthContext);
 
-  function commentOnPost() {}
-
   return (
     <Card fluid>
       <Card.Content>
